@@ -1,0 +1,68 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  margin-top: 2rem;
+  background-color: white;
+  flex-direction: column;
+}
+
+.weathers>div:first-child{
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.city-container{
+  background-color: aliceblue;
+  width: 100%;
+  padding: 15px;
+  border: none;
+}
+
+select{
+  padding: 5px;
+  padding-right: 60px;
+  border-radius: 5px;
+}
+
+.weathers{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.weather-box{
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.65;
+}
+
+
+.day{
+  text-align: center;
+  color: #B4B4B4;
+  margin: 0px;
+}
+
+.icon{
+  font-size: 2rem;
+  text-align: center;
+}
+
+.temprature{
+  display: flex;
+  justify-content: center;
+}
+
+.low{
+  color: #B4B4B4;
+  margin-left: 10px;
+}
